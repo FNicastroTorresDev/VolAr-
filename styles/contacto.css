@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.page-header {
+    display: row;
+    color: #454545;
+    margin: 20px;
+}
+
+.container {
+   display: flex;
+   justify-content:center;
+   margin-top: 50px;
+}
+
+.main-btn {
+    font-weight:700;
+    color: #45403E;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    background-color: #FDBE15;
+    margin-top: 16px;
+    padding: auto;
+    
+
+}
+
+.main-btn:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    color: #FAFAFA;
+}
+
+
+.btn-inicio {
+    text-align: center;
+    margin-top: 65px;
+ }
+
+

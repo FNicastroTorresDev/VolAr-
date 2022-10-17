@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VolAr - Página principal</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./styles/style.css">
+  </head>
+  <body>
+
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg bg-color">
+        <div class="container-fluid">
+          <img class="logo" src="images/logo.png" alt="">
+          <h4 class="logo-title">VolAr</h4>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/info.html">Nosotros</a>
+              </li>
+             
+            </ul>
+            <span class="">
+              <a href="/pages/login.html"><button class="nav-login">Login</button></a>
+              <a class="nav-register" href="./pages/registro.html">Registrarme</a>
+            </span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <main>
+   
+      <section id="hero">
+        <div id="slider-index" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#slider-index" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#slider-index" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#slider-index" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="./images/01-slider.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./images/02-slider.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/03-slider.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#slider-index" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#slider-index" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    
+      <section class="container d-flex flex-column flex-md-row mt-2">
+
+        <section id="entradas" class="col-lg-8 px-md-5">
+
+          <h2 class="fs-5 titulo-seccion">Últimos artículos</h2>
+
+          <article class="d-flex flex-column align-items-center my-3 border-bottom">
+            <h3>Calafate: Paisaje de sueño</h3>
+            <img class="img-fluid" src="./images/Calafate-696x463.jpg" alt="...">
+            <p class="my-2 text-center">
+              En este sitio se descubrieron las primeras pinturas rupestres de la provincia pertenecientes al paleolítico. Se pueden apreciar cuevas y aleros naturales utilizados por el hombre prehistórico para sus manifestaciones pictóricas.
+            </p>
+            <a class="ver-mas" href="./pages/galeria.html">Ver más...</a>
+          </article>
+
+          <article class="d-flex flex-column align-items-center my-3 border-bottom">
+            <h3>Canal Beagle: canal de onas</h3>
+            <img class="img-fluid" src="./images/Canaldebeagle-696x392.jpg" alt="...">
+            <p class="my-2 text-center">
+              Navegar por el Canal es una experiencia necesaria en tu viaje a Ushuaia. En diferentes tipos de embarcaciones ya sea catamaranes, yates o veleros, y con varias opciones de recorridos, vas a poder admirar la ciudad y su entorno desde otra perspectiva
+            </p>
+            <a class="ver-mas" href="./pages/galeria.html">Ver más...</a>
+          </article>
+
+          <article class="d-flex flex-column align-items-center my-3 border-bottom">
+            <h3>Chalten: Madre Roca, Padre Cielo</h3>
+            <img class="img-fluid" src="./images/chaltepatagonia.jpg" alt="...">
+            <p class="my-2 text-center">
+              Tu llanto descansa al pie, de los ventisqueros. Y cada estrella se posa, en tu cima blanca. Alumbrando el camino, de los silencios. El dios que adoró el tehuelche pintó el Lucero...
+            </p>
+            <a class="ver-mas" href="./pages/galeria.html">Ver más...</a>
+          </article>
+
+          <nav aria-label="Main Page navigation">
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled">
+                <a class="page-link a-custom"> < </a>
+              </li>
+              <li class="page-item"><a class="page-link a-custom" href="#">1</a></li>
+              <li class="page-item"><a class="page-link a-custom" href="./pages/error404.html">2</a></li>
+              <li class="page-item"><a class="page-link a-custom" href="./pages/error404.html">3</a></li>
+              <li class="page-item">
+                <a class="page-link a-custom" href="#"> > </a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+
+        <section id="extras" class="col-lg-4 px-md-3">
+
+          <article id="buscador" class="mb-3">
+            <h5 class="titulo-seccion">Buscar en el sitio</h5>
+            <form action="" class="d-flex justify-content-center my-3">
+              <input type="text" name="buscar" id="buscar" placeholder="¿Qué te interesa?" class="col-10">
+              <button type="submit" value="Buscar" class="col-2"><i class="bi bi-search"></i></button>
+            </form>
+          </article>
+
+          <article id="categorias" class="mb-3">
+            <h5 class="titulo-seccion">Otros artículos</h5>
+            <ul>
+              <li><a class="a-categoria" href="./pages/galeria.html">Más visitados</a></li>
+              <li><a class="a-categoria" href="pages/error404.html">Destinos exóticos</a></li>
+              <li><a class="a-categoria" href="pages/error404.html">Gastronomía</a></li>
+            </ul>
+          </article>
+
+          <article id="publicidark">
+            <h5 class="titulo-seccion">Publicidad</h5>
+            <div id="slider" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./images/flecha-ads.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/jetmsart-ads.png" class="d-block" alt="...">
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </section>
+
+      </section>
+
+      <a class="btn-top fs-1" href="#"><i class="bi bi-caret-up-square-fill"></i></a>
+
+    </main>
+
+    <footer class="container-fluid">
+      <section class="px-4 py-4">
+        <section class="row">
+
+          <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center">
+            <img class="logo-footer" src="images/logo-gris.png" alt="logo">
+          </div>
+        
+          <article class="col-12 col-lg-4 my-5">
+            <p>
+              CONTACTO
+            </p>
+            <p>
+              <i class="bi bi-telephone-outbound-fill pe-3"></i>
+              Tel: +54 123456789
+            </p>
+            <p>
+              <i class="bi bi-envelope-fill pe-3"></i>
+              Email: contacto@volar.com.ar
+            </p>
+            <p>
+              ¡Las mejores vacaciones las pasás con nosotros!
+            </p>
+          </article>
+  
+          <article class="col-12 col-lg-4 d-flex justify-content-center align-items-center">
+            <div class="mb-5 d-flex justify-content-center">
+              <a href="https://facebook.com/login/?locale=es_ES" target="_blank"><i class="bi bi-facebook px-2"></i></a>
+              <a href="https://twitter.com/?lang=es" target="_blank"><i class="bi bi-twitter px-2"></i></a>
+              <a href="https://instagram.com/volar_g1?igshid=YmMyMTA2M2Y=" target="_blank"><i class="bi bi-instagram px-2"></i></a>
+            </div>
+          </article>
+        </section>
+  
+      </section>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
