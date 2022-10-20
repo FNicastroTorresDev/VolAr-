@@ -130,6 +130,10 @@ body {
   }
 
   @media screen and (max-width: 768px) {
+    .slider-custom{
+      height: 200px;
+      width: auto;
+    }
     #publicidark {
       display: none;
     }
@@ -141,13 +145,20 @@ body {
     }
   }
 
-  @media  (max-width: 991px) {
+@media  (max-width: 991px) {
+  .slider-custom{
+    height: 200px;
+    width: auto;
+  }
     nav .nav-link:hover {
        transform: scale(0.9);
     }
     nav .nav-register {
         display:flex;
         margin-top: 10px;
+    }
+    h5{
+      font-size: 32px;
     }
 }
 
@@ -173,8 +184,4 @@ footer * {
 
 footer .bi-facebook, .bi-twitter, .bi-instagram {
   font-size: 30px;
-}
-
-@media only screen and (min-width: 992px) {
-  h5{font-size: 32px;}
 }
